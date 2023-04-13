@@ -1,4 +1,4 @@
-/* GLOBAL */
+GLOBAL
 
 *{
     box-sizing: border-box;
@@ -16,7 +16,7 @@ body{
     margin: 0;
     font-family: "Rubik", "Arial", "sans-serif";
     font-size: 16px;
-    line-height: 22;
+    /* line-height: 22; */
     color: #4a4b4c;
     background-color: #fff;
 }
@@ -24,12 +24,115 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+/* BUTTON  */
+.button{
+    display:inline-block;
+    padding: 13px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.button-primary{
+    background-color: #7296ec;
+    color: #fff;
+}
+.button-primary:hover{
+    opacity: 0.8;
+}
+.button-primary:active{
+    opacity: 0.6;
+}
 /* container */
-.container{
+ .container{
     width: 100%;
     max-width: 1200px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto; 
+    margin-right: auto; 
+ }
+
+
+ /* SITE-HEADER  */
+ .site-header {
 }
+
+/* SITE-HEADER-TOP  */
+.site-header-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F6F6F6;
+}
+.site-header-top-containeR {
+    display: flex;
+    align-items: center;
+
+}
+.container {
+}
+.site-header-logo {
+    background-color: #fff;
+    display: flex;
+    padding: 8px 6px;
+    margin-right: 35px;
+    border-radius: 7px;
+}
+.site-header-logo:hover{
+    opacity: 0.8;
+}
+.site-header-logo:active{
+    opacity: 0.6;
+}
+
+.currency-rates{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-right: auto;
+    list-style: none;
+}
+.currency-rates {
+}
+.currency-rates-item:not(:last-child) {
+    margin-right: 25px;
+}
+.currency-rates-type {
+    color: #2959ce;
+}
+/* LANG-TOGGLE  */
+.lang-toggle {
+    display: flex;
+    padding: 3px;
+    border-radius: 39px;
+    background-color: #dce6ff;
+    margin-right: 25px;
+
+}
+.lang-toggle-link {
+      font-size: 13px;
+      width: 30px;
+      height: 30px;
+      color: #a6a6a6;
+      border-radius: 50%;
+      text-align: center;
+      text-decoration: none;
+      line-height: 30px;
+}
+.lang-toggle-link-active {
+    background-color: #fff;
+    color: #000;
+}
+.button {
+}
+.button-primary {
+}
+
+
+
